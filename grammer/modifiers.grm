@@ -1,0 +1,28 @@
+modifiers
+  : modifiers*
+  ;
+
+modifier
+  : accessModifier
+  : classModifier
+  : memberModifier
+  ;
+
+accessModifier
+  : "public"
+  : "protected"
+  : "private"
+  ;
+
+classModifier
+  : "final"
+  : "abstract"
+  : "enum"
+  : "annotation"
+  ;
+
+memberModifier
+  : "override"
+  : "final"
+  : "abstract"
+  ;
